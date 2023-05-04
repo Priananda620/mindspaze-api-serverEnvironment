@@ -6,8 +6,9 @@ from logging import getLogger
 from flask_apscheduler import APScheduler
 from flask_sqlalchemy import SQLAlchemy
 
-from blueprints import mindspaze_bp
-from config import Config
+from .blueprints import mindspaze_bp
+from .blueprints.prediction import prediction_blueprint
+from .config import Config
 
 app_logger = getLogger('app')
 error_logger = getLogger('error')
@@ -29,5 +30,6 @@ def create_appp(test: bool = False) -> Flask:
         migrate.init_app(app, db)
 
         app.register_blueprint(mindspaze_bp)
+        app.register_blueprint(prediction_blueprint)
 
         return app
