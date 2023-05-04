@@ -1,7 +1,7 @@
 from flask import Blueprint
 from flask_restful import Api
 
-from mindspaze_api.resources.prediction import (
+from resources.prediction import (
     PredictionResource,
 )
 
