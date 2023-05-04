@@ -1,0 +1,338 @@
+2023-05-04 07:50:46,972 - root - ERROR - Error running WSGI application
+2023-05-04 07:50:46,979 - root - ERROR - AttributeError: module 'sqlalchemy' has no attribute '__all__'
+2023-05-04 07:50:47,761 - root - ERROR -   File "/var/www/priananda620_pythonanywhere_com_wsgi.py", line 16, in <module>
+2023-05-04 07:50:47,806 - root - ERROR -     from mindspaze_api import create_app as application  # noqa
+2023-05-04 07:50:47,877 - root - ERROR - 
+2023-05-04 07:50:47,882 - root - ERROR -   File "/home/priananda620/./mindspaze_api/__init__.py", line 15, in <module>
+2023-05-04 07:50:47,887 - root - ERROR -     db = SQLAlchemy()
+2023-05-04 07:50:47,892 - root - ERROR - 
+2023-05-04 07:50:47,896 - root - ERROR -   File "/usr/local/lib/python3.10/site-packages/flask_sqlalchemy/__init__.py", line 758, in __init__
+2023-05-04 07:50:47,901 - root - ERROR -     _include_sqlalchemy(self, query_class)
+2023-05-04 07:50:47,906 - root - ERROR - 
+2023-05-04 07:50:47,916 - root - ERROR -   File "/usr/local/lib/python3.10/site-packages/flask_sqlalchemy/__init__.py", line 112, in _include_sqlalchemy
+2023-05-04 07:50:47,921 - root - ERROR -     for key in module.__all__:
+2023-05-04 07:50:47,927 - root - ERROR - ***************************************************
+2023-05-04 07:50:47,931 - root - ERROR - If you're seeing an import error and don't know why,
+2023-05-04 07:50:47,937 - root - ERROR - we have a dedicated help page to help you debug: 
+2023-05-04 07:50:47,942 - root - ERROR - https://help.pythonanywhere.com/pages/DebuggingImportError/
+2023-05-04 07:50:47,947 - root - ERROR - ***************************************************
+2023-05-04 07:51:19,831 - root - ERROR - Error running WSGI application
+2023-05-04 07:51:19,831 - root - ERROR - AttributeError: module 'sqlalchemy' has no attribute '__all__'
+2023-05-04 07:51:19,991 - root - ERROR -   File "/var/www/priananda620_pythonanywhere_com_wsgi.py", line 16, in <module>
+2023-05-04 07:51:20,001 - root - ERROR -     from mindspaze_api import create_app as application  # noqa
+2023-05-04 07:51:20,008 - root - ERROR - 
+2023-05-04 07:51:20,015 - root - ERROR -   File "/home/priananda620/./mindspaze_api/__init__.py", line 15, in <module>
+2023-05-04 07:51:20,020 - root - ERROR -     db = SQLAlchemy()
+2023-05-04 07:51:20,024 - root - ERROR - 
+2023-05-04 07:51:20,028 - root - ERROR -   File "/usr/local/lib/python3.10/site-packages/flask_sqlalchemy/__init__.py", line 758, in __init__
+2023-05-04 07:51:20,033 - root - ERROR -     _include_sqlalchemy(self, query_class)
+2023-05-04 07:51:20,038 - root - ERROR - 
+2023-05-04 07:51:20,140 - root - ERROR -   File "/usr/local/lib/python3.10/site-packages/flask_sqlalchemy/__init__.py", line 112, in _include_sqlalchemy
+2023-05-04 07:51:20,153 - root - ERROR -     for key in module.__all__:
+2023-05-04 07:51:20,157 - root - ERROR - ***************************************************
+2023-05-04 07:51:20,161 - root - ERROR - If you're seeing an import error and don't know why,
+2023-05-04 07:51:20,167 - root - ERROR - we have a dedicated help page to help you debug: 
+2023-05-04 07:51:20,171 - root - ERROR - https://help.pythonanywhere.com/pages/DebuggingImportError/
+2023-05-04 07:51:20,175 - root - ERROR - ***************************************************
+2023-05-04 07:51:22,067 - root - ERROR - Error running WSGI application
+2023-05-04 07:51:22,152 - root - ERROR - AttributeError: module 'sqlalchemy' has no attribute '__all__'
+2023-05-04 07:51:22,171 - root - ERROR -   File "/var/www/priananda620_pythonanywhere_com_wsgi.py", line 16, in <module>
+2023-05-04 07:51:22,472 - root - ERROR -     from mindspaze_api import create_app as application  # noqa
+2023-05-04 07:51:22,484 - root - ERROR - 
+2023-05-04 07:51:22,495 - root - ERROR -   File "/home/priananda620/./mindspaze_api/__init__.py", line 15, in <module>
+2023-05-04 07:51:22,501 - root - ERROR -     db = SQLAlchemy()
+2023-05-04 07:51:22,505 - root - ERROR - 
+2023-05-04 07:51:22,510 - root - ERROR -   File "/usr/local/lib/python3.10/site-packages/flask_sqlalchemy/__init__.py", line 758, in __init__
+2023-05-04 07:51:22,514 - root - ERROR -     _include_sqlalchemy(self, query_class)
+2023-05-04 07:51:22,517 - root - ERROR - 
+2023-05-04 07:51:22,521 - root - ERROR -   File "/usr/local/lib/python3.10/site-packages/flask_sqlalchemy/__init__.py", line 112, in _include_sqlalchemy
+2023-05-04 07:51:22,526 - root - ERROR -     for key in module.__all__:
+2023-05-04 07:51:22,530 - root - ERROR - ***************************************************
+2023-05-04 07:51:22,534 - root - ERROR - If you're seeing an import error and don't know why,
+2023-05-04 07:51:22,538 - root - ERROR - we have a dedicated help page to help you debug: 
+2023-05-04 07:51:22,545 - root - ERROR - https://help.pythonanywhere.com/pages/DebuggingImportError/
+2023-05-04 07:51:22,549 - root - ERROR - ***************************************************
+2023-05-04 08:00:52,743 - root - ERROR - Error running WSGI application
+2023-05-04 08:00:52,746 - root - ERROR - AttributeError: module 'sqlalchemy' has no attribute '__all__'
+2023-05-04 08:00:52,896 - root - ERROR -   File "/var/www/priananda620_pythonanywhere_com_wsgi.py", line 16, in <module>
+2023-05-04 08:00:52,903 - root - ERROR -     from mindspaze_api import create_app as application  # noqa
+2023-05-04 08:00:53,108 - root - ERROR - 
+2023-05-04 08:00:53,117 - root - ERROR -   File "/home/priananda620/./mindspaze_api/__init__.py", line 15, in <module>
+2023-05-04 08:00:53,122 - root - ERROR -     db = SQLAlchemy()
+2023-05-04 08:00:53,319 - root - ERROR - 
+2023-05-04 08:00:53,325 - root - ERROR -   File "/usr/local/lib/python3.10/site-packages/flask_sqlalchemy/__init__.py", line 758, in __init__
+2023-05-04 08:00:53,332 - root - ERROR -     _include_sqlalchemy(self, query_class)
+2023-05-04 08:00:53,337 - root - ERROR - 
+2023-05-04 08:00:53,342 - root - ERROR -   File "/usr/local/lib/python3.10/site-packages/flask_sqlalchemy/__init__.py", line 112, in _include_sqlalchemy
+2023-05-04 08:00:53,496 - root - ERROR -     for key in module.__all__:
+2023-05-04 08:00:53,506 - root - ERROR - ***************************************************
+2023-05-04 08:00:53,868 - root - ERROR - If you're seeing an import error and don't know why,
+2023-05-04 08:00:53,875 - root - ERROR - we have a dedicated help page to help you debug: 
+2023-05-04 08:00:53,882 - root - ERROR - https://help.pythonanywhere.com/pages/DebuggingImportError/
+2023-05-04 08:00:53,889 - root - ERROR - ***************************************************
+2023-05-04 08:00:55,445 - root - ERROR - Error running WSGI application
+2023-05-04 08:00:55,860 - root - ERROR - AttributeError: module 'sqlalchemy' has no attribute '__all__'
+2023-05-04 08:00:55,868 - root - ERROR -   File "/var/www/priananda620_pythonanywhere_com_wsgi.py", line 16, in <module>
+2023-05-04 08:00:55,872 - root - ERROR -     from mindspaze_api import create_app as application  # noqa
+2023-05-04 08:00:55,879 - root - ERROR - 
+2023-05-04 08:00:56,069 - root - ERROR -   File "/home/priananda620/./mindspaze_api/__init__.py", line 15, in <module>
+2023-05-04 08:00:56,072 - root - ERROR -     db = SQLAlchemy()
+2023-05-04 08:00:56,078 - root - ERROR - 
+2023-05-04 08:00:56,083 - root - ERROR -   File "/usr/local/lib/python3.10/site-packages/flask_sqlalchemy/__init__.py", line 758, in __init__
+2023-05-04 08:00:56,087 - root - ERROR -     _include_sqlalchemy(self, query_class)
+2023-05-04 08:00:56,091 - root - ERROR - 
+2023-05-04 08:00:56,095 - root - ERROR -   File "/usr/local/lib/python3.10/site-packages/flask_sqlalchemy/__init__.py", line 112, in _include_sqlalchemy
+2023-05-04 08:00:56,099 - root - ERROR -     for key in module.__all__:
+2023-05-04 08:00:56,282 - root - ERROR - ***************************************************
+2023-05-04 08:00:56,287 - root - ERROR - If you're seeing an import error and don't know why,
+2023-05-04 08:00:56,294 - root - ERROR - we have a dedicated help page to help you debug: 
+2023-05-04 08:00:56,299 - root - ERROR - https://help.pythonanywhere.com/pages/DebuggingImportError/
+2023-05-04 08:00:56,305 - root - ERROR - ***************************************************
+2023-05-04 08:01:28,955 - root - ERROR - Error running WSGI application
+2023-05-04 08:01:28,957 - root - ERROR - TypeError: create_app() takes from 0 to 1 positional arguments but 2 were given
+2023-05-04 08:01:44,486 - root - ERROR - Error running WSGI application
+2023-05-04 08:01:44,749 - root - ERROR - TypeError: create_app() takes from 0 to 1 positional arguments but 2 were given
+2023-05-04 08:01:45,647 - root - ERROR - Error running WSGI application
+2023-05-04 08:01:45,654 - root - ERROR - TypeError: create_app() takes from 0 to 1 positional arguments but 2 were given
+2023-05-04 08:08:29,149 - root - ERROR - Error running WSGI application
+2023-05-04 08:08:29,154 - root - ERROR - TypeError: create_app() takes from 0 to 1 positional arguments but 2 were given
+2023-05-04 08:08:30,454 - root - ERROR - Error running WSGI application
+2023-05-04 08:08:30,455 - root - ERROR - TypeError: create_app() takes from 0 to 1 positional arguments but 2 were given
+2023-05-04 08:11:15,250 - root - ERROR - Error running WSGI application
+2023-05-04 08:11:15,252 - root - ERROR - TypeError: create_app() takes from 0 to 1 positional arguments but 2 were given
+2023-05-04 08:11:41,758 - root - ERROR - Error running WSGI application
+2023-05-04 08:11:41,758 - root - ERROR - TypeError: create_app() takes from 0 to 1 positional arguments but 2 were given
+2023-05-04 08:11:43,068 - root - ERROR - Error running WSGI application
+2023-05-04 08:11:43,068 - root - ERROR - TypeError: create_app() takes from 0 to 1 positional arguments but 2 were given
+2023-05-04 08:16:17,972 - root - ERROR - Error running WSGI application
+2023-05-04 08:16:17,974 - root - ERROR - TypeError: create_app() takes from 0 to 1 positional arguments but 2 were given
+2023-05-04 08:16:40,389 - root - ERROR - Error running WSGI application
+2023-05-04 08:16:40,389 - root - ERROR - TypeError: create_app() takes from 0 to 1 positional arguments but 2 were given
+2023-05-04 08:17:24,618 - root - ERROR - Error running WSGI application
+2023-05-04 08:17:24,622 - root - ERROR - TypeError: create_app() takes from 0 to 1 positional arguments but 2 were given
+2023-05-04 08:18:56,399 - root - ERROR - Error running WSGI application
+2023-05-04 08:18:56,402 - root - ERROR - TypeError: create_app() takes 0 positional arguments but 2 were given
+2023-05-04 08:19:07,819 - root - ERROR - Error running WSGI application
+2023-05-04 08:19:07,825 - root - ERROR - TypeError: create_app() takes 0 positional arguments but 2 were given
+2023-05-04 08:19:36,124 - root - ERROR - Error running WSGI application
+2023-05-04 08:19:36,126 - root - ERROR - TypeError: create_app() takes 0 positional arguments but 2 were given
+2023-05-04 08:19:46,686 - root - ERROR - Error running WSGI application
+2023-05-04 08:19:46,709 - root - ERROR - TypeError: create_app() takes 0 positional arguments but 2 were given
+2023-05-04 08:20:00,499 - root - ERROR - Error running WSGI application
+2023-05-04 08:20:00,502 - root - ERROR - TypeError: create_app() takes from 0 to 1 positional arguments but 2 were given
+2023-05-04 08:20:07,817 - root - ERROR - Error running WSGI application
+2023-05-04 08:20:07,999 - root - ERROR - TypeError: create_app() takes from 0 to 1 positional arguments but 2 were given
+2023-05-04 08:34:09,664 - root - ERROR - Error running WSGI application
+2023-05-04 08:34:09,667 - root - ERROR - TypeError: 'module' object is not callable
+2023-05-04 08:37:24,757 - root - ERROR - Error running WSGI application
+2023-05-04 08:37:24,761 - root - ERROR - TypeError: 'module' object is not callable
+2023-05-04 08:39:09,711 - root - ERROR - Error running WSGI application
+2023-05-04 08:39:09,714 - root - ERROR - TypeError: 'module' object is not callable
+2023-05-04 08:44:41,834 - root - ERROR - Error running WSGI application
+2023-05-04 08:44:41,837 - root - ERROR - TypeError: 'module' object is not callable
+2023-05-04 08:46:54,829 - root - ERROR - Error running WSGI application
+2023-05-04 08:46:54,834 - root - ERROR - TypeError: 'module' object is not callable
+2023-05-04 08:50:02,666 - root - ERROR - Error running WSGI application
+2023-05-04 08:50:02,668 - root - ERROR - TypeError: 'module' object is not callable
+2023-05-04 08:53:14,998 - root - ERROR - Error running WSGI application
+2023-05-04 08:53:15,001 - root - ERROR - TypeError: 'module' object is not callable
+2023-05-04 09:01:38,557 - root - ERROR - Error running WSGI application
+2023-05-04 09:01:38,566 - root - ERROR - TypeError: 'module' object is not callable
+2023-05-04 09:03:20,937 - root - ERROR - Error running WSGI application
+2023-05-04 09:03:20,941 - root - ERROR - TypeError: 'module' object is not callable
+2023-05-04 09:03:53,566 - root - ERROR - Error running WSGI application
+2023-05-04 09:03:53,568 - root - ERROR - TypeError: 'module' object is not callable
+2023-05-04 09:05:04,218 - root - ERROR - Error running WSGI application
+2023-05-04 09:05:04,223 - root - ERROR - TypeError: 'module' object is not callable
+2023-05-04 09:05:15,443 - root - ERROR - Error running WSGI application
+2023-05-04 09:05:15,447 - root - ERROR - NameError: name 'create_app' is not defined
+2023-05-04 09:05:15,467 - root - ERROR -   File "/var/www/priananda620_pythonanywhere_com_wsgi.py", line 18, in <module>
+2023-05-04 09:05:15,472 - root - ERROR -     application = create_app()
+2023-05-04 09:05:15,476 - root - ERROR - ***************************************************
+2023-05-04 09:05:15,487 - root - ERROR - If you're seeing an import error and don't know why,
+2023-05-04 09:05:15,500 - root - ERROR - we have a dedicated help page to help you debug: 
+2023-05-04 09:05:15,504 - root - ERROR - https://help.pythonanywhere.com/pages/DebuggingImportError/
+2023-05-04 09:05:15,508 - root - ERROR - ***************************************************
+2023-05-04 09:05:17,293 - root - ERROR - Error running WSGI application
+2023-05-04 09:05:17,368 - root - ERROR - NameError: name 'create_app' is not defined
+2023-05-04 09:05:17,372 - root - ERROR -   File "/var/www/priananda620_pythonanywhere_com_wsgi.py", line 18, in <module>
+2023-05-04 09:05:17,376 - root - ERROR -     application = create_app()
+2023-05-04 09:05:17,380 - root - ERROR - ***************************************************
+2023-05-04 09:05:17,384 - root - ERROR - If you're seeing an import error and don't know why,
+2023-05-04 09:05:17,388 - root - ERROR - we have a dedicated help page to help you debug: 
+2023-05-04 09:05:17,393 - root - ERROR - https://help.pythonanywhere.com/pages/DebuggingImportError/
+2023-05-04 09:05:17,399 - root - ERROR - ***************************************************
+2023-05-04 09:13:37,139 - root - ERROR - Error running WSGI application
+2023-05-04 09:13:37,150 - root - ERROR - AttributeError: module 'mindspaze_api.app' has no attribute 'create_app'
+2023-05-04 09:13:37,182 - root - ERROR -   File "/var/www/priananda620_pythonanywhere_com_wsgi.py", line 18, in <module>
+2023-05-04 09:13:37,192 - root - ERROR -     application = app.create_app()
+2023-05-04 09:13:37,200 - root - ERROR - ***************************************************
+2023-05-04 09:13:37,611 - root - ERROR - If you're seeing an import error and don't know why,
+2023-05-04 09:13:37,622 - root - ERROR - we have a dedicated help page to help you debug: 
+2023-05-04 09:13:37,820 - root - ERROR - https://help.pythonanywhere.com/pages/DebuggingImportError/
+2023-05-04 09:13:37,828 - root - ERROR - ***************************************************
+2023-05-04 09:13:41,625 - root - ERROR - Error running WSGI application
+2023-05-04 09:13:41,629 - root - ERROR - AttributeError: module 'mindspaze_api.app' has no attribute 'create_app'
+2023-05-04 09:13:42,138 - root - ERROR -   File "/var/www/priananda620_pythonanywhere_com_wsgi.py", line 18, in <module>
+2023-05-04 09:13:42,180 - root - ERROR -     application = app.create_app()
+2023-05-04 09:13:42,200 - root - ERROR - ***************************************************
+2023-05-04 09:13:42,214 - root - ERROR - If you're seeing an import error and don't know why,
+2023-05-04 09:13:42,224 - root - ERROR - we have a dedicated help page to help you debug: 
+2023-05-04 09:13:42,232 - root - ERROR - https://help.pythonanywhere.com/pages/DebuggingImportError/
+2023-05-04 09:13:42,247 - root - ERROR - ***************************************************
+2023-05-04 09:14:37,772 - root - ERROR - Error running WSGI application
+2023-05-04 09:14:37,779 - root - ERROR - ImportError: cannot import name 'create_app' from 'mindspaze_api.app' (/home/priananda620/./mindspaze_api/app.py)
+2023-05-04 09:14:38,156 - root - ERROR -   File "/var/www/priananda620_pythonanywhere_com_wsgi.py", line 17, in <module>
+2023-05-04 09:14:38,165 - root - ERROR -     from mindspaze_api.app import create_app
+2023-05-04 09:14:38,188 - root - ERROR - ***************************************************
+2023-05-04 09:14:38,198 - root - ERROR - If you're seeing an import error and don't know why,
+2023-05-04 09:14:38,400 - root - ERROR - we have a dedicated help page to help you debug: 
+2023-05-04 09:14:38,411 - root - ERROR - https://help.pythonanywhere.com/pages/DebuggingImportError/
+2023-05-04 09:14:38,424 - root - ERROR - ***************************************************
+2023-05-04 09:18:25,663 - root - ERROR - Error running WSGI application
+2023-05-04 09:18:25,667 - root - ERROR - AttributeError: module 'mindspaze_api.app' has no attribute 'create_app'
+2023-05-04 09:18:25,673 - root - ERROR -   File "/var/www/priananda620_pythonanywhere_com_wsgi.py", line 18, in <module>
+2023-05-04 09:18:25,678 - root - ERROR -     application = app.create_app()
+2023-05-04 09:18:25,691 - root - ERROR - ***************************************************
+2023-05-04 09:18:25,697 - root - ERROR - If you're seeing an import error and don't know why,
+2023-05-04 09:18:25,889 - root - ERROR - we have a dedicated help page to help you debug: 
+2023-05-04 09:18:25,899 - root - ERROR - https://help.pythonanywhere.com/pages/DebuggingImportError/
+2023-05-04 09:18:25,907 - root - ERROR - ***************************************************
+2023-05-04 09:18:27,153 - root - ERROR - Error running WSGI application
+2023-05-04 09:18:28,064 - root - ERROR - AttributeError: module 'mindspaze_api.app' has no attribute 'create_app'
+2023-05-04 09:18:28,079 - root - ERROR -   File "/var/www/priananda620_pythonanywhere_com_wsgi.py", line 18, in <module>
+2023-05-04 09:18:28,089 - root - ERROR -     application = app.create_app()
+2023-05-04 09:18:28,097 - root - ERROR - ***************************************************
+2023-05-04 09:18:28,108 - root - ERROR - If you're seeing an import error and don't know why,
+2023-05-04 09:18:28,114 - root - ERROR - we have a dedicated help page to help you debug: 
+2023-05-04 09:18:28,134 - root - ERROR - https://help.pythonanywhere.com/pages/DebuggingImportError/
+2023-05-04 09:18:28,543 - root - ERROR - ***************************************************
+2023-05-04 09:18:57,610 - root - ERROR - Error running WSGI application
+2023-05-04 09:18:57,626 - root - ERROR - AttributeError: module 'mindspaze_api.app' has no attribute 'create_app'
+2023-05-04 09:18:57,686 - root - ERROR -   File "/var/www/priananda620_pythonanywhere_com_wsgi.py", line 18, in <module>
+2023-05-04 09:18:57,693 - root - ERROR -     application = app.create_app()
+2023-05-04 09:18:57,701 - root - ERROR - ***************************************************
+2023-05-04 09:18:57,709 - root - ERROR - If you're seeing an import error and don't know why,
+2023-05-04 09:18:57,726 - root - ERROR - we have a dedicated help page to help you debug: 
+2023-05-04 09:18:57,738 - root - ERROR - https://help.pythonanywhere.com/pages/DebuggingImportError/
+2023-05-04 09:18:57,883 - root - ERROR - ***************************************************
+2023-05-04 09:18:58,497 - root - ERROR - Error running WSGI application
+2023-05-04 09:18:58,538 - root - ERROR - AttributeError: module 'mindspaze_api.app' has no attribute 'create_app'
+2023-05-04 09:18:58,544 - root - ERROR -   File "/var/www/priananda620_pythonanywhere_com_wsgi.py", line 18, in <module>
+2023-05-04 09:18:58,552 - root - ERROR -     application = app.create_app()
+2023-05-04 09:18:58,563 - root - ERROR - ***************************************************
+2023-05-04 09:18:58,571 - root - ERROR - If you're seeing an import error and don't know why,
+2023-05-04 09:18:58,783 - root - ERROR - we have a dedicated help page to help you debug: 
+2023-05-04 09:18:58,792 - root - ERROR - https://help.pythonanywhere.com/pages/DebuggingImportError/
+2023-05-04 09:18:59,985 - root - ERROR - ***************************************************
+2023-05-04 09:18:59,992 - root - ERROR - Error running WSGI application
+2023-05-04 09:19:00,003 - root - ERROR - AttributeError: module 'mindspaze_api.app' has no attribute 'create_app'
+2023-05-04 09:19:00,020 - root - ERROR -   File "/var/www/priananda620_pythonanywhere_com_wsgi.py", line 18, in <module>
+2023-05-04 09:19:00,026 - root - ERROR -     application = app.create_app()
+2023-05-04 09:19:00,034 - root - ERROR - ***************************************************
+2023-05-04 09:19:00,048 - root - ERROR - If you're seeing an import error and don't know why,
+2023-05-04 09:19:00,066 - root - ERROR - we have a dedicated help page to help you debug: 
+2023-05-04 09:19:00,071 - root - ERROR - https://help.pythonanywhere.com/pages/DebuggingImportError/
+2023-05-04 09:19:00,077 - root - ERROR - ***************************************************
+2023-05-04 09:19:00,698 - root - ERROR - Error running WSGI application
+2023-05-04 09:19:00,897 - root - ERROR - AttributeError: module 'mindspaze_api.app' has no attribute 'create_app'
+2023-05-04 09:19:00,916 - root - ERROR -   File "/var/www/priananda620_pythonanywhere_com_wsgi.py", line 18, in <module>
+2023-05-04 09:19:00,927 - root - ERROR -     application = app.create_app()
+2023-05-04 09:19:00,934 - root - ERROR - ***************************************************
+2023-05-04 09:19:01,118 - root - ERROR - If you're seeing an import error and don't know why,
+2023-05-04 09:19:01,135 - root - ERROR - we have a dedicated help page to help you debug: 
+2023-05-04 09:19:01,148 - root - ERROR - https://help.pythonanywhere.com/pages/DebuggingImportError/
+2023-05-04 09:19:01,334 - root - ERROR - ***************************************************
+2023-05-04 09:20:37,383 - root - ERROR - Error running WSGI application
+2023-05-04 09:20:37,389 - root - ERROR - ImportError: cannot import name 'create_app' from 'mindspaze_api' (/home/priananda620/./mindspaze_api/__init__.py)
+2023-05-04 09:20:37,554 - root - ERROR -   File "/var/www/priananda620_pythonanywhere_com_wsgi.py", line 17, in <module>
+2023-05-04 09:20:37,566 - root - ERROR -     from mindspaze_api import create_app
+2023-05-04 09:20:37,748 - root - ERROR - ***************************************************
+2023-05-04 09:20:37,767 - root - ERROR - If you're seeing an import error and don't know why,
+2023-05-04 09:20:37,774 - root - ERROR - we have a dedicated help page to help you debug: 
+2023-05-04 09:20:37,792 - root - ERROR - https://help.pythonanywhere.com/pages/DebuggingImportError/
+2023-05-04 09:20:37,810 - root - ERROR - ***************************************************
+2023-05-04 09:20:39,135 - root - ERROR - Error running WSGI application
+2023-05-04 09:20:39,628 - root - ERROR - ImportError: cannot import name 'create_app' from 'mindspaze_api' (/home/priananda620/./mindspaze_api/__init__.py)
+2023-05-04 09:20:39,634 - root - ERROR -   File "/var/www/priananda620_pythonanywhere_com_wsgi.py", line 17, in <module>
+2023-05-04 09:20:39,642 - root - ERROR -     from mindspaze_api import create_app
+2023-05-04 09:20:39,671 - root - ERROR - ***************************************************
+2023-05-04 09:20:39,678 - root - ERROR - If you're seeing an import error and don't know why,
+2023-05-04 09:20:39,683 - root - ERROR - we have a dedicated help page to help you debug: 
+2023-05-04 09:20:39,978 - root - ERROR - https://help.pythonanywhere.com/pages/DebuggingImportError/
+2023-05-04 09:20:39,987 - root - ERROR - ***************************************************
+2023-05-04 09:21:02,867 - root - ERROR - Error running WSGI application
+2023-05-04 09:21:02,869 - root - ERROR - TypeError: 'module' object is not callable
+2023-05-04 09:21:04,346 - root - ERROR - Error running WSGI application
+2023-05-04 09:21:04,383 - root - ERROR - TypeError: 'module' object is not callable
+2023-05-04 09:21:49,721 - root - ERROR - Error running WSGI application
+2023-05-04 09:21:49,724 - root - ERROR - TypeError: 'module' object is not callable
+2023-05-04 09:21:50,554 - root - ERROR - Error running WSGI application
+2023-05-04 09:21:50,558 - root - ERROR - TypeError: 'module' object is not callable
+2023-05-04 09:22:24,975 - root - ERROR - Error running WSGI application
+2023-05-04 09:22:24,976 - root - ERROR - TypeError: 'module' object is not callable
+2023-05-04 09:22:25,666 - root - ERROR - Error running WSGI application
+2023-05-04 09:22:25,790 - root - ERROR - TypeError: 'module' object is not callable
+2023-05-04 09:22:30,618 - root - ERROR - Error running WSGI application
+2023-05-04 09:22:30,623 - root - ERROR - AttributeError: module 'mindspaze_api.app' has no attribute 'create_app'
+2023-05-04 09:22:30,668 - root - ERROR -   File "/var/www/priananda620_pythonanywhere_com_wsgi.py", line 19, in <module>
+2023-05-04 09:22:30,682 - root - ERROR -     application = app.create_app()
+2023-05-04 09:22:30,692 - root - ERROR - ***************************************************
+2023-05-04 09:22:30,706 - root - ERROR - If you're seeing an import error and don't know why,
+2023-05-04 09:22:30,717 - root - ERROR - we have a dedicated help page to help you debug: 
+2023-05-04 09:22:30,893 - root - ERROR - https://help.pythonanywhere.com/pages/DebuggingImportError/
+2023-05-04 09:22:30,904 - root - ERROR - ***************************************************
+2023-05-04 09:22:31,578 - root - ERROR - Error running WSGI application
+2023-05-04 09:22:31,763 - root - ERROR - AttributeError: module 'mindspaze_api.app' has no attribute 'create_app'
+2023-05-04 09:22:31,771 - root - ERROR -   File "/var/www/priananda620_pythonanywhere_com_wsgi.py", line 19, in <module>
+2023-05-04 09:22:31,968 - root - ERROR -     application = app.create_app()
+2023-05-04 09:22:31,991 - root - ERROR - ***************************************************
+2023-05-04 09:22:32,002 - root - ERROR - If you're seeing an import error and don't know why,
+2023-05-04 09:22:32,639 - root - ERROR - we have a dedicated help page to help you debug: 
+2023-05-04 09:22:32,651 - root - ERROR - https://help.pythonanywhere.com/pages/DebuggingImportError/
+2023-05-04 09:22:32,660 - root - ERROR - ***************************************************
+2023-05-04 09:22:39,295 - root - ERROR - Error running WSGI application
+2023-05-04 09:22:39,296 - root - ERROR - AttributeError: module 'mindspaze_api.app' has no attribute 'create_app'
+2023-05-04 09:22:39,360 - root - ERROR -   File "/var/www/priananda620_pythonanywhere_com_wsgi.py", line 19, in <module>
+2023-05-04 09:22:39,368 - root - ERROR -     application = app.create_app()
+2023-05-04 09:22:39,374 - root - ERROR - ***************************************************
+2023-05-04 09:22:39,381 - root - ERROR - If you're seeing an import error and don't know why,
+2023-05-04 09:22:39,399 - root - ERROR - we have a dedicated help page to help you debug: 
+2023-05-04 09:22:39,592 - root - ERROR - https://help.pythonanywhere.com/pages/DebuggingImportError/
+2023-05-04 09:22:39,600 - root - ERROR - ***************************************************
+2023-05-04 09:22:40,250 - root - ERROR - Error running WSGI application
+2023-05-04 09:22:40,262 - root - ERROR - AttributeError: module 'mindspaze_api.app' has no attribute 'create_app'
+2023-05-04 09:22:40,270 - root - ERROR -   File "/var/www/priananda620_pythonanywhere_com_wsgi.py", line 19, in <module>
+2023-05-04 09:22:40,281 - root - ERROR -     application = app.create_app()
+2023-05-04 09:22:40,456 - root - ERROR - ***************************************************
+2023-05-04 09:22:40,473 - root - ERROR - If you're seeing an import error and don't know why,
+2023-05-04 09:22:40,781 - root - ERROR - we have a dedicated help page to help you debug: 
+2023-05-04 09:22:40,802 - root - ERROR - https://help.pythonanywhere.com/pages/DebuggingImportError/
+2023-05-04 09:22:40,807 - root - ERROR - ***************************************************
+2023-05-04 09:24:04,300 - root - ERROR - Error running WSGI application
+2023-05-04 09:24:04,303 - root - ERROR - AttributeError: module 'mindspaze_api.app' has no attribute 'create_app'
+2023-05-04 09:24:04,374 - root - ERROR -   File "/var/www/priananda620_pythonanywhere_com_wsgi.py", line 19, in <module>
+2023-05-04 09:24:04,383 - root - ERROR -     application = app.create_app()
+2023-05-04 09:24:04,397 - root - ERROR - ***************************************************
+2023-05-04 09:24:04,402 - root - ERROR - If you're seeing an import error and don't know why,
+2023-05-04 09:24:04,411 - root - ERROR - we have a dedicated help page to help you debug: 
+2023-05-04 09:24:04,418 - root - ERROR - https://help.pythonanywhere.com/pages/DebuggingImportError/
+2023-05-04 09:24:04,425 - root - ERROR - ***************************************************
+2023-05-04 09:24:05,733 - root - ERROR - Error running WSGI application
+2023-05-04 09:24:05,964 - root - ERROR - AttributeError: module 'mindspaze_api.app' has no attribute 'create_app'
+2023-05-04 09:24:05,986 - root - ERROR -   File "/var/www/priananda620_pythonanywhere_com_wsgi.py", line 19, in <module>
+2023-05-04 09:24:05,995 - root - ERROR -     application = app.create_app()
+2023-05-04 09:24:06,015 - root - ERROR - ***************************************************
+2023-05-04 09:24:06,178 - root - ERROR - If you're seeing an import error and don't know why,
+2023-05-04 09:24:06,194 - root - ERROR - we have a dedicated help page to help you debug: 
+2023-05-04 09:24:06,199 - root - ERROR - https://help.pythonanywhere.com/pages/DebuggingImportError/
+2023-05-04 09:24:06,205 - root - ERROR - ***************************************************
+2023-05-04 09:24:55,439 - root - ERROR - Error running WSGI application
+2023-05-04 09:24:55,455 - root - ERROR - AttributeError: module 'mindspaze_api.app' has no attribute 'create_app'
+2023-05-04 09:24:55,469 - root - ERROR -   File "/var/www/priananda620_pythonanywhere_com_wsgi.py", line 19, in <module>
+2023-05-04 09:24:55,473 - root - ERROR -     application = app.create_app()
+2023-05-04 09:24:55,478 - root - ERROR - ***************************************************
+2023-05-04 09:24:55,482 - root - ERROR - If you're seeing an import error and don't know why,
+2023-05-04 09:24:55,506 - root - ERROR - we have a dedicated help page to help you debug: 
+2023-05-04 09:24:55,510 - root - ERROR - https://help.pythonanywhere.com/pages/DebuggingImportError/
+2023-05-04 09:24:55,525 - root - ERROR - ***************************************************
