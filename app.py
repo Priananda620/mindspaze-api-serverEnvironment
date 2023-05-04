@@ -1,9 +1,3 @@
-from mindspaze_api import appClass
+from mindspaze_api import create_app
 
-
-class app:
-    def create_app():
-        temp = appClass()
-
-        app = temp.create_app()
-        return app
+app = create_app()
