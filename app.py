@@ -1,3 +1,3 @@
-import create_app
+from create_app import create_appp
 
-app = create_app.create_appp()
+app = create_appp()
