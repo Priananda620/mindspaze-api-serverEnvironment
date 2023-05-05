@@ -702,3 +702,277 @@ Traceback (most recent call last):
   File "C:\Users\PRIANANDA AZHAR\Downloads\FLASK-serverEnv\mindspaze_api\resources\prediction.py", line 26, in post
     content = f.read()
 AttributeError: 'str' object has no attribute 'read'
+2023-05-05 13:25:54,682 - MindSpaze - ERROR - Exception on /mindspaze_api/predict [POST]
+Traceback (most recent call last):
+  File "C:\Users\PRIANANDA AZHAR\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\PRIANANDA AZHAR\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\PRIANANDA AZHAR\AppData\Local\Programs\Python\Python310\lib\site-packages\flask_restful\__init__.py", line 271, in error_router
+    return original_handler(e)
+  File "C:\Users\PRIANANDA AZHAR\AppData\Local\Programs\Python\Python310\lib\site-packages\flask_restful\__init__.py", line 271, in error_router
+    return original_handler(e)
+  File "C:\Users\PRIANANDA AZHAR\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\PRIANANDA AZHAR\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "C:\Users\PRIANANDA AZHAR\AppData\Local\Programs\Python\Python310\lib\site-packages\flask_restful\__init__.py", line 467, in wrapper
+    resp = resource(*args, **kwargs)
+  File "C:\Users\PRIANANDA AZHAR\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\views.py", line 109, in view
+    return current_app.ensure_sync(self.dispatch_request)(**kwargs)
+  File "C:\Users\PRIANANDA AZHAR\AppData\Local\Programs\Python\Python310\lib\site-packages\flask_restful\__init__.py", line 582, in dispatch_request
+    resp = meth(*args, **kwargs)
+  File "C:\Users\PRIANANDA AZHAR\Downloads\FLASK-serverEnv\mindspaze_api\resources\prediction.py", line 18, in post
+    model = pickle.load(model_file)
+AttributeError: Can't get attribute 'process_text' on <module '__main__' from 'C:\\Users\\PRIANANDA AZHAR\\AppData\\Local\\Programs\\Python\\Python310\\Scripts\\flask.exe\\__main__.py'>
+2023-05-05 13:58:36,523 - MindSpaze - ERROR - Exception on /mindspaze_api/predict [POST]
+Traceback (most recent call last):
+  File "C:\Users\PRIANANDA AZHAR\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\PRIANANDA AZHAR\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\PRIANANDA AZHAR\AppData\Local\Programs\Python\Python310\lib\site-packages\flask_restful\__init__.py", line 271, in error_router
+    return original_handler(e)
+  File "C:\Users\PRIANANDA AZHAR\AppData\Local\Programs\Python\Python310\lib\site-packages\flask_restful\__init__.py", line 271, in error_router
+    return original_handler(e)
+  File "C:\Users\PRIANANDA AZHAR\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\PRIANANDA AZHAR\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "C:\Users\PRIANANDA AZHAR\AppData\Local\Programs\Python\Python310\lib\site-packages\flask_restful\__init__.py", line 467, in wrapper
+    resp = resource(*args, **kwargs)
+  File "C:\Users\PRIANANDA AZHAR\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\views.py", line 109, in view
+    return current_app.ensure_sync(self.dispatch_request)(**kwargs)
+  File "C:\Users\PRIANANDA AZHAR\AppData\Local\Programs\Python\Python310\lib\site-packages\flask_restful\__init__.py", line 582, in dispatch_request
+    resp = meth(*args, **kwargs)
+  File "C:\Users\PRIANANDA AZHAR\Downloads\FLASK-serverEnv\mindspaze_api\resources\prediction.py", line 48, in post
+    model = pickle.load(model_file)
+AttributeError: Can't get attribute 'process_text' on <module '__main__' from 'C:\\Users\\PRIANANDA AZHAR\\AppData\\Local\\Programs\\Python\\Python310\\Scripts\\flask.exe\\__main__.py'>
+2023-05-05 14:00:44,725 - MindSpaze - ERROR - Exception on /mindspaze_api/predict [POST]
+Traceback (most recent call last):
+  File "C:\Users\PRIANANDA AZHAR\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\PRIANANDA AZHAR\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\PRIANANDA AZHAR\AppData\Local\Programs\Python\Python310\lib\site-packages\flask_restful\__init__.py", line 271, in error_router
+    return original_handler(e)
+  File "C:\Users\PRIANANDA AZHAR\AppData\Local\Programs\Python\Python310\lib\site-packages\flask_restful\__init__.py", line 271, in error_router
+    return original_handler(e)
+  File "C:\Users\PRIANANDA AZHAR\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\PRIANANDA AZHAR\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "C:\Users\PRIANANDA AZHAR\AppData\Local\Programs\Python\Python310\lib\site-packages\flask_restful\__init__.py", line 467, in wrapper
+    resp = resource(*args, **kwargs)
+  File "C:\Users\PRIANANDA AZHAR\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\views.py", line 109, in view
+    return current_app.ensure_sync(self.dispatch_request)(**kwargs)
+  File "C:\Users\PRIANANDA AZHAR\AppData\Local\Programs\Python\Python310\lib\site-packages\flask_restful\__init__.py", line 582, in dispatch_request
+    resp = meth(*args, **kwargs)
+  File "C:\Users\PRIANANDA AZHAR\Downloads\FLASK-serverEnv\mindspaze_api\resources\prediction.py", line 48, in post
+    loaded_model = joblib.load(model_name)
+  File "C:\Users\PRIANANDA AZHAR\AppData\Local\Programs\Python\Python310\lib\site-packages\joblib\numpy_pickle.py", line 658, in load
+    obj = _unpickle(fobj, filename, mmap_mode)
+  File "C:\Users\PRIANANDA AZHAR\AppData\Local\Programs\Python\Python310\lib\site-packages\joblib\numpy_pickle.py", line 577, in _unpickle
+    obj = unpickler.load()
+  File "C:\Users\PRIANANDA AZHAR\AppData\Local\Programs\Python\Python310\lib\pickle.py", line 1213, in load
+    dispatch[key[0]](self)
+  File "C:\Users\PRIANANDA AZHAR\AppData\Local\Programs\Python\Python310\lib\pickle.py", line 1538, in load_stack_global
+    self.append(self.find_class(module, name))
+  File "C:\Users\PRIANANDA AZHAR\AppData\Local\Programs\Python\Python310\lib\pickle.py", line 1582, in find_class
+    return _getattribute(sys.modules[module], name)[0]
+  File "C:\Users\PRIANANDA AZHAR\AppData\Local\Programs\Python\Python310\lib\pickle.py", line 331, in _getattribute
+    raise AttributeError("Can't get attribute {!r} on {!r}"
+AttributeError: Can't get attribute 'process_text' on <module '__main__' from 'C:\\Users\\PRIANANDA AZHAR\\AppData\\Local\\Programs\\Python\\Python310\\Scripts\\flask.exe\\__main__.py'>
+2023-05-05 14:01:59,634 - MindSpaze - ERROR - Exception on /mindspaze_api/predict [POST]
+Traceback (most recent call last):
+  File "C:\Users\PRIANANDA AZHAR\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\PRIANANDA AZHAR\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\PRIANANDA AZHAR\AppData\Local\Programs\Python\Python310\lib\site-packages\flask_restful\__init__.py", line 271, in error_router
+    return original_handler(e)
+  File "C:\Users\PRIANANDA AZHAR\AppData\Local\Programs\Python\Python310\lib\site-packages\flask_restful\__init__.py", line 271, in error_router
+    return original_handler(e)
+  File "C:\Users\PRIANANDA AZHAR\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\PRIANANDA AZHAR\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "C:\Users\PRIANANDA AZHAR\AppData\Local\Programs\Python\Python310\lib\site-packages\flask_restful\__init__.py", line 467, in wrapper
+    resp = resource(*args, **kwargs)
+  File "C:\Users\PRIANANDA AZHAR\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\views.py", line 109, in view
+    return current_app.ensure_sync(self.dispatch_request)(**kwargs)
+  File "C:\Users\PRIANANDA AZHAR\AppData\Local\Programs\Python\Python310\lib\site-packages\flask_restful\__init__.py", line 582, in dispatch_request
+    resp = meth(*args, **kwargs)
+  File "C:\Users\PRIANANDA AZHAR\Downloads\FLASK-serverEnv\mindspaze_api\resources\prediction.py", line 48, in post
+    loaded_model = joblib.load(model_name)
+  File "C:\Users\PRIANANDA AZHAR\AppData\Local\Programs\Python\Python310\lib\site-packages\joblib\numpy_pickle.py", line 658, in load
+    obj = _unpickle(fobj, filename, mmap_mode)
+  File "C:\Users\PRIANANDA AZHAR\AppData\Local\Programs\Python\Python310\lib\site-packages\joblib\numpy_pickle.py", line 577, in _unpickle
+    obj = unpickler.load()
+  File "C:\Users\PRIANANDA AZHAR\AppData\Local\Programs\Python\Python310\lib\pickle.py", line 1213, in load
+    dispatch[key[0]](self)
+  File "C:\Users\PRIANANDA AZHAR\AppData\Local\Programs\Python\Python310\lib\pickle.py", line 1538, in load_stack_global
+    self.append(self.find_class(module, name))
+  File "C:\Users\PRIANANDA AZHAR\AppData\Local\Programs\Python\Python310\lib\pickle.py", line 1582, in find_class
+    return _getattribute(sys.modules[module], name)[0]
+  File "C:\Users\PRIANANDA AZHAR\AppData\Local\Programs\Python\Python310\lib\pickle.py", line 331, in _getattribute
+    raise AttributeError("Can't get attribute {!r} on {!r}"
+AttributeError: Can't get attribute 'process_text' on <module '__main__' from 'C:\\Users\\PRIANANDA AZHAR\\AppData\\Local\\Programs\\Python\\Python310\\Scripts\\flask.exe\\__main__.py'>
+2023-05-05 14:13:00,868 - MindSpaze - ERROR - Exception on /mindspaze_api/predict [POST]
+Traceback (most recent call last):
+  File "C:\Users\PRIANANDA AZHAR\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\PRIANANDA AZHAR\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\PRIANANDA AZHAR\AppData\Local\Programs\Python\Python310\lib\site-packages\flask_restful\__init__.py", line 271, in error_router
+    return original_handler(e)
+  File "C:\Users\PRIANANDA AZHAR\AppData\Local\Programs\Python\Python310\lib\site-packages\flask_restful\__init__.py", line 271, in error_router
+    return original_handler(e)
+  File "C:\Users\PRIANANDA AZHAR\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\PRIANANDA AZHAR\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "C:\Users\PRIANANDA AZHAR\AppData\Local\Programs\Python\Python310\lib\site-packages\flask_restful\__init__.py", line 467, in wrapper
+    resp = resource(*args, **kwargs)
+  File "C:\Users\PRIANANDA AZHAR\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\views.py", line 109, in view
+    return current_app.ensure_sync(self.dispatch_request)(**kwargs)
+  File "C:\Users\PRIANANDA AZHAR\AppData\Local\Programs\Python\Python310\lib\site-packages\flask_restful\__init__.py", line 582, in dispatch_request
+    resp = meth(*args, **kwargs)
+  File "C:\Users\PRIANANDA AZHAR\Downloads\FLASK-serverEnv\mindspaze_api\resources\prediction.py", line 48, in post
+    loaded_model = joblib.load(model_name)
+  File "C:\Users\PRIANANDA AZHAR\AppData\Local\Programs\Python\Python310\lib\site-packages\joblib\numpy_pickle.py", line 658, in load
+    obj = _unpickle(fobj, filename, mmap_mode)
+  File "C:\Users\PRIANANDA AZHAR\AppData\Local\Programs\Python\Python310\lib\site-packages\joblib\numpy_pickle.py", line 577, in _unpickle
+    obj = unpickler.load()
+  File "C:\Users\PRIANANDA AZHAR\AppData\Local\Programs\Python\Python310\lib\pickle.py", line 1213, in load
+    dispatch[key[0]](self)
+  File "C:\Users\PRIANANDA AZHAR\AppData\Local\Programs\Python\Python310\lib\pickle.py", line 1538, in load_stack_global
+    self.append(self.find_class(module, name))
+  File "C:\Users\PRIANANDA AZHAR\AppData\Local\Programs\Python\Python310\lib\pickle.py", line 1582, in find_class
+    return _getattribute(sys.modules[module], name)[0]
+  File "C:\Users\PRIANANDA AZHAR\AppData\Local\Programs\Python\Python310\lib\pickle.py", line 331, in _getattribute
+    raise AttributeError("Can't get attribute {!r} on {!r}"
+AttributeError: Can't get attribute 'process_text' on <module '__main__' from 'C:\\Users\\PRIANANDA AZHAR\\AppData\\Local\\Programs\\Python\\Python310\\Scripts\\flask.exe\\__main__.py'>
+2023-05-05 14:19:25,983 - MindSpaze - ERROR - Exception on /mindspaze_api/predict [POST]
+Traceback (most recent call last):
+  File "C:\Users\PRIANANDA AZHAR\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\PRIANANDA AZHAR\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\PRIANANDA AZHAR\AppData\Local\Programs\Python\Python310\lib\site-packages\flask_restful\__init__.py", line 271, in error_router
+    return original_handler(e)
+  File "C:\Users\PRIANANDA AZHAR\AppData\Local\Programs\Python\Python310\lib\site-packages\flask_restful\__init__.py", line 271, in error_router
+    return original_handler(e)
+  File "C:\Users\PRIANANDA AZHAR\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\PRIANANDA AZHAR\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "C:\Users\PRIANANDA AZHAR\AppData\Local\Programs\Python\Python310\lib\site-packages\flask_restful\__init__.py", line 467, in wrapper
+    resp = resource(*args, **kwargs)
+  File "C:\Users\PRIANANDA AZHAR\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\views.py", line 109, in view
+    return current_app.ensure_sync(self.dispatch_request)(**kwargs)
+  File "C:\Users\PRIANANDA AZHAR\AppData\Local\Programs\Python\Python310\lib\site-packages\flask_restful\__init__.py", line 582, in dispatch_request
+    resp = meth(*args, **kwargs)
+  File "C:\Users\PRIANANDA AZHAR\Downloads\FLASK-serverEnv\mindspaze_api\resources\prediction.py", line 55, in post
+    f = open(os.getcwd()+"/machine_learning/model/aaa.txt", 'r')
+FileNotFoundError: [Errno 2] No such file or directory: 'C:\\Users\\PRIANANDA AZHAR\\Downloads\\FLASK-serverEnv\\mindspaze_api/machine_learning/model/aaa.txt'
+2023-05-05 14:20:46,771 - MindSpaze - ERROR - Exception on /mindspaze_api/predict [POST]
+Traceback (most recent call last):
+  File "C:\Users\PRIANANDA AZHAR\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\PRIANANDA AZHAR\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\PRIANANDA AZHAR\AppData\Local\Programs\Python\Python310\lib\site-packages\flask_restful\__init__.py", line 271, in error_router
+    return original_handler(e)
+  File "C:\Users\PRIANANDA AZHAR\AppData\Local\Programs\Python\Python310\lib\site-packages\flask_restful\__init__.py", line 271, in error_router
+    return original_handler(e)
+  File "C:\Users\PRIANANDA AZHAR\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\PRIANANDA AZHAR\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "C:\Users\PRIANANDA AZHAR\AppData\Local\Programs\Python\Python310\lib\site-packages\flask_restful\__init__.py", line 467, in wrapper
+    resp = resource(*args, **kwargs)
+  File "C:\Users\PRIANANDA AZHAR\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\views.py", line 109, in view
+    return current_app.ensure_sync(self.dispatch_request)(**kwargs)
+  File "C:\Users\PRIANANDA AZHAR\AppData\Local\Programs\Python\Python310\lib\site-packages\flask_restful\__init__.py", line 582, in dispatch_request
+    resp = meth(*args, **kwargs)
+  File "C:\Users\PRIANANDA AZHAR\Downloads\FLASK-serverEnv\mindspaze_api\resources\prediction.py", line 49, in post
+    loaded_model = joblib.load(model_name)
+  File "C:\Users\PRIANANDA AZHAR\AppData\Local\Programs\Python\Python310\lib\site-packages\joblib\numpy_pickle.py", line 650, in load
+    with open(filename, 'rb') as f:
+FileNotFoundError: [Errno 2] No such file or directory: 'svm_countVec_model.sav'
+2023-05-05 14:21:17,992 - MindSpaze - ERROR - Exception on /mindspaze_api/predict [POST]
+Traceback (most recent call last):
+  File "C:\Users\PRIANANDA AZHAR\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\PRIANANDA AZHAR\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\PRIANANDA AZHAR\AppData\Local\Programs\Python\Python310\lib\site-packages\flask_restful\__init__.py", line 271, in error_router
+    return original_handler(e)
+  File "C:\Users\PRIANANDA AZHAR\AppData\Local\Programs\Python\Python310\lib\site-packages\flask_restful\__init__.py", line 271, in error_router
+    return original_handler(e)
+  File "C:\Users\PRIANANDA AZHAR\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\PRIANANDA AZHAR\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "C:\Users\PRIANANDA AZHAR\AppData\Local\Programs\Python\Python310\lib\site-packages\flask_restful\__init__.py", line 467, in wrapper
+    resp = resource(*args, **kwargs)
+  File "C:\Users\PRIANANDA AZHAR\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\views.py", line 109, in view
+    return current_app.ensure_sync(self.dispatch_request)(**kwargs)
+  File "C:\Users\PRIANANDA AZHAR\AppData\Local\Programs\Python\Python310\lib\site-packages\flask_restful\__init__.py", line 582, in dispatch_request
+    resp = meth(*args, **kwargs)
+  File "C:\Users\PRIANANDA AZHAR\Downloads\FLASK-serverEnv\mindspaze_api\resources\prediction.py", line 49, in post
+    loaded_model = joblib.load(model_name)
+  File "C:\Users\PRIANANDA AZHAR\AppData\Local\Programs\Python\Python310\lib\site-packages\joblib\numpy_pickle.py", line 650, in load
+    with open(filename, 'rb') as f:
+FileNotFoundError: [Errno 2] No such file or directory: '/machine_learning/models/svm_countVec_model.sav'
+2023-05-05 14:21:19,689 - MindSpaze - ERROR - Exception on /mindspaze_api/predict [POST]
+Traceback (most recent call last):
+  File "C:\Users\PRIANANDA AZHAR\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\PRIANANDA AZHAR\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\PRIANANDA AZHAR\AppData\Local\Programs\Python\Python310\lib\site-packages\flask_restful\__init__.py", line 271, in error_router
+    return original_handler(e)
+  File "C:\Users\PRIANANDA AZHAR\AppData\Local\Programs\Python\Python310\lib\site-packages\flask_restful\__init__.py", line 271, in error_router
+    return original_handler(e)
+  File "C:\Users\PRIANANDA AZHAR\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\PRIANANDA AZHAR\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "C:\Users\PRIANANDA AZHAR\AppData\Local\Programs\Python\Python310\lib\site-packages\flask_restful\__init__.py", line 467, in wrapper
+    resp = resource(*args, **kwargs)
+  File "C:\Users\PRIANANDA AZHAR\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\views.py", line 109, in view
+    return current_app.ensure_sync(self.dispatch_request)(**kwargs)
+  File "C:\Users\PRIANANDA AZHAR\AppData\Local\Programs\Python\Python310\lib\site-packages\flask_restful\__init__.py", line 582, in dispatch_request
+    resp = meth(*args, **kwargs)
+  File "C:\Users\PRIANANDA AZHAR\Downloads\FLASK-serverEnv\mindspaze_api\resources\prediction.py", line 49, in post
+    loaded_model = joblib.load(model_name)
+  File "C:\Users\PRIANANDA AZHAR\AppData\Local\Programs\Python\Python310\lib\site-packages\joblib\numpy_pickle.py", line 650, in load
+    with open(filename, 'rb') as f:
+FileNotFoundError: [Errno 2] No such file or directory: '/machine_learning/models/svm_countVec_model.sav'
+2023-05-05 14:21:27,203 - MindSpaze - ERROR - Exception on /mindspaze_api/predict [POST]
+Traceback (most recent call last):
+  File "C:\Users\PRIANANDA AZHAR\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\PRIANANDA AZHAR\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\PRIANANDA AZHAR\AppData\Local\Programs\Python\Python310\lib\site-packages\flask_restful\__init__.py", line 271, in error_router
+    return original_handler(e)
+  File "C:\Users\PRIANANDA AZHAR\AppData\Local\Programs\Python\Python310\lib\site-packages\flask_restful\__init__.py", line 271, in error_router
+    return original_handler(e)
+  File "C:\Users\PRIANANDA AZHAR\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\PRIANANDA AZHAR\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "C:\Users\PRIANANDA AZHAR\AppData\Local\Programs\Python\Python310\lib\site-packages\flask_restful\__init__.py", line 467, in wrapper
+    resp = resource(*args, **kwargs)
+  File "C:\Users\PRIANANDA AZHAR\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\views.py", line 109, in view
+    return current_app.ensure_sync(self.dispatch_request)(**kwargs)
+  File "C:\Users\PRIANANDA AZHAR\AppData\Local\Programs\Python\Python310\lib\site-packages\flask_restful\__init__.py", line 582, in dispatch_request
+    resp = meth(*args, **kwargs)
+  File "C:\Users\PRIANANDA AZHAR\Downloads\FLASK-serverEnv\mindspaze_api\resources\prediction.py", line 49, in post
+    loaded_model = joblib.load(model_name)
+  File "C:\Users\PRIANANDA AZHAR\AppData\Local\Programs\Python\Python310\lib\site-packages\joblib\numpy_pickle.py", line 650, in load
+    with open(filename, 'rb') as f:
+FileNotFoundError: [Errno 2] No such file or directory: '/machine_learning/models/svm_countVec_model.sav'
