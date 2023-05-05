@@ -4,38 +4,38 @@ import os
 from flask_restful import Resource
 
 ######
-from nltk.corpus import wordnet
-import string
-import nltk
-from nltk.corpus import stopwords
-from nltk.stem import WordNetLemmatizer 
-lemmatizer = WordNetLemmatizer()
-nltk.download('stopwords')
-stop_words = stopwords.words('english')
+# from nltk.corpus import wordnet
+# import string
+# import nltk
+# from nltk.corpus import stopwords
+# from nltk.stem import WordNetLemmatizer 
+# lemmatizer = WordNetLemmatizer()
+# nltk.download('stopwords')
+# stop_words = stopwords.words('english')
 import joblib
 #######
 
 
 class PredictionResource(Resource):
     
-    def get_wordnet_pos(word):
-        tag = nltk.pos_tag([word])[0][1][0].upper()
-        tag_dict = {"J": wordnet.ADJ,
-                    "N": wordnet.NOUN,
-                    "V": wordnet.VERB,
-                    "R": wordnet.ADV}
-        return tag_dict.get(tag, wordnet.NOUN)
+    # def get_wordnet_pos(word):
+    #     tag = nltk.pos_tag([word])[0][1][0].upper()
+    #     tag_dict = {"J": wordnet.ADJ,
+    #                 "N": wordnet.NOUN,
+    #                 "V": wordnet.VERB,
+    #                 "R": wordnet.ADV}
+    #     return tag_dict.get(tag, wordnet.NOUN)
     
-    def process_text(s):
-        punctuation = string.punctuation+'‘'
-        punctuation = punctuation + '’'
-        nopunc = [char for char in s if char not in punctuation]
-        nopunc = ''.join(nopunc)
-        twitter = ['via', 'photo', 'rt', '@', '#', 'https']
-        stopword = stop_words + twitter
-        clean_string = [word.lower() for word in nopunc.split() if word.lower() not in stopword]
-        clean_string = [lemmatizer.lemmatize(w, PredictionResource.get_wordnet_pos(w)) for w in clean_string]
-        return clean_string
+    # def process_text(s):
+    #     punctuation = string.punctuation+'‘'
+    #     punctuation = punctuation + '’'
+    #     nopunc = [char for char in s if char not in punctuation]
+    #     nopunc = ''.join(nopunc)
+    #     twitter = ['via', 'photo', 'rt', '@', '#', 'https']
+    #     stopword = stop_words + twitter
+    #     clean_string = [word.lower() for word in nopunc.split() if word.lower() not in stopword]
+    #     clean_string = [lemmatizer.lemmatize(w, PredictionResource.get_wordnet_pos(w)) for w in clean_string]
+    #     return clean_string
 
     def post(self):
         response = {
