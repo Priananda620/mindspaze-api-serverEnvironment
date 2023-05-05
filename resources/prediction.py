@@ -52,12 +52,6 @@ class PredictionResource(Resource):
         article_text = response.get("data").get("comment")
         article_predict_loaded_model = loaded_model.predict([article_text])
 
-
-        # f = open(os.getcwd()+"/machine_learning/model/aaa.txt", 'r')
-        # content = f.read()
-
-        # article_predict_loaded_model=True
-
         data = {
             "is_hoax": bool(article_predict_loaded_model[0]),
             "curr_dir": model_name
