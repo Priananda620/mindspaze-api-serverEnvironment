@@ -564,3 +564,141 @@ Traceback (most recent call last):
   File "C:\Users\PRIANANDA AZHAR\Downloads\FLASK-serverEnv\mindspaze_api\resources\prediction.py", line 18, in post
     model = pickle.load(model_file)
 AttributeError: Can't get attribute 'process_text' on <module '__main__' from 'C:\\Users\\PRIANANDA AZHAR\\AppData\\Local\\Programs\\Python\\Python310\\Scripts\\flask.exe\\__main__.py'>
+2023-05-04 18:13:28,857 - MindSpaze - ERROR - Exception on /predict [POST]
+Traceback (most recent call last):
+  File "C:\Users\PRIANANDA AZHAR\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\PRIANANDA AZHAR\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\PRIANANDA AZHAR\AppData\Local\Programs\Python\Python310\lib\site-packages\flask_restful\__init__.py", line 271, in error_router
+    return original_handler(e)
+  File "C:\Users\PRIANANDA AZHAR\AppData\Local\Programs\Python\Python310\lib\site-packages\flask_restful\__init__.py", line 271, in error_router
+    return original_handler(e)
+  File "C:\Users\PRIANANDA AZHAR\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\PRIANANDA AZHAR\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "C:\Users\PRIANANDA AZHAR\AppData\Local\Programs\Python\Python310\lib\site-packages\flask_restful\__init__.py", line 467, in wrapper
+    resp = resource(*args, **kwargs)
+  File "C:\Users\PRIANANDA AZHAR\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\views.py", line 109, in view
+    return current_app.ensure_sync(self.dispatch_request)(**kwargs)
+  File "C:\Users\PRIANANDA AZHAR\AppData\Local\Programs\Python\Python310\lib\site-packages\flask_restful\__init__.py", line 582, in dispatch_request
+    resp = meth(*args, **kwargs)
+  File "C:\Users\PRIANANDA AZHAR\Downloads\FLASK-serverEnv\mindspaze_api\resources\prediction.py", line 18, in post
+    model = pickle.load(model_file)
+AttributeError: Can't get attribute 'process_text' on <module '__main__' from 'C:\\Users\\PRIANANDA AZHAR\\AppData\\Local\\Programs\\Python\\Python310\\Scripts\\flask.exe\\__main__.py'>
+2023-05-04 18:14:48,548 - MindSpaze - ERROR - Exception on /predict [POST]
+Traceback (most recent call last):
+  File "C:\Users\PRIANANDA AZHAR\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\PRIANANDA AZHAR\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\PRIANANDA AZHAR\AppData\Local\Programs\Python\Python310\lib\site-packages\flask_restful\__init__.py", line 271, in error_router
+    return original_handler(e)
+  File "C:\Users\PRIANANDA AZHAR\AppData\Local\Programs\Python\Python310\lib\site-packages\flask_restful\__init__.py", line 271, in error_router
+    return original_handler(e)
+  File "C:\Users\PRIANANDA AZHAR\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\PRIANANDA AZHAR\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "C:\Users\PRIANANDA AZHAR\AppData\Local\Programs\Python\Python310\lib\site-packages\flask_restful\__init__.py", line 467, in wrapper
+    resp = resource(*args, **kwargs)
+  File "C:\Users\PRIANANDA AZHAR\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\views.py", line 109, in view
+    return current_app.ensure_sync(self.dispatch_request)(**kwargs)
+  File "C:\Users\PRIANANDA AZHAR\AppData\Local\Programs\Python\Python310\lib\site-packages\flask_restful\__init__.py", line 582, in dispatch_request
+    resp = meth(*args, **kwargs)
+  File "C:\Users\PRIANANDA AZHAR\Downloads\FLASK-serverEnv\mindspaze_api\resources\prediction.py", line 22, in post
+    model = pickle.load(myfile)
+AttributeError: Can't get attribute 'process_text' on <module '__main__' from 'C:\\Users\\PRIANANDA AZHAR\\AppData\\Local\\Programs\\Python\\Python310\\Scripts\\flask.exe\\__main__.py'>
+2023-05-04 18:16:25,460 - MindSpaze - ERROR - Exception on /predict [POST]
+Traceback (most recent call last):
+  File "C:\Users\PRIANANDA AZHAR\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\PRIANANDA AZHAR\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\PRIANANDA AZHAR\AppData\Local\Programs\Python\Python310\lib\site-packages\flask_restful\__init__.py", line 271, in error_router
+    return original_handler(e)
+  File "C:\Users\PRIANANDA AZHAR\AppData\Local\Programs\Python\Python310\lib\site-packages\flask_restful\__init__.py", line 271, in error_router
+    return original_handler(e)
+  File "C:\Users\PRIANANDA AZHAR\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\PRIANANDA AZHAR\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "C:\Users\PRIANANDA AZHAR\AppData\Local\Programs\Python\Python310\lib\site-packages\flask_restful\__init__.py", line 467, in wrapper
+    resp = resource(*args, **kwargs)
+  File "C:\Users\PRIANANDA AZHAR\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\views.py", line 109, in view
+    return current_app.ensure_sync(self.dispatch_request)(**kwargs)
+  File "C:\Users\PRIANANDA AZHAR\AppData\Local\Programs\Python\Python310\lib\site-packages\flask_restful\__init__.py", line 582, in dispatch_request
+    resp = meth(*args, **kwargs)
+  File "C:\Users\PRIANANDA AZHAR\Downloads\FLASK-serverEnv\mindspaze_api\resources\prediction.py", line 18, in post
+    model = pickle.load(model_file)
+AttributeError: Can't get attribute 'process_text' on <module '__main__' from 'C:\\Users\\PRIANANDA AZHAR\\AppData\\Local\\Programs\\Python\\Python310\\Scripts\\flask.exe\\__main__.py'>
+2023-05-04 18:22:55,223 - MindSpaze - ERROR - Exception on /predict [POST]
+Traceback (most recent call last):
+  File "C:\Users\PRIANANDA AZHAR\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\PRIANANDA AZHAR\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\PRIANANDA AZHAR\AppData\Local\Programs\Python\Python310\lib\site-packages\flask_restful\__init__.py", line 271, in error_router
+    return original_handler(e)
+  File "C:\Users\PRIANANDA AZHAR\AppData\Local\Programs\Python\Python310\lib\site-packages\flask_restful\__init__.py", line 271, in error_router
+    return original_handler(e)
+  File "C:\Users\PRIANANDA AZHAR\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\PRIANANDA AZHAR\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "C:\Users\PRIANANDA AZHAR\AppData\Local\Programs\Python\Python310\lib\site-packages\flask_restful\__init__.py", line 467, in wrapper
+    resp = resource(*args, **kwargs)
+  File "C:\Users\PRIANANDA AZHAR\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\views.py", line 109, in view
+    return current_app.ensure_sync(self.dispatch_request)(**kwargs)
+  File "C:\Users\PRIANANDA AZHAR\AppData\Local\Programs\Python\Python310\lib\site-packages\flask_restful\__init__.py", line 582, in dispatch_request
+    resp = meth(*args, **kwargs)
+  File "C:\Users\PRIANANDA AZHAR\Downloads\FLASK-serverEnv\mindspaze_api\resources\prediction.py", line 18, in post
+    model = pickle.load(model_file)
+AttributeError: Can't get attribute 'process_text' on <module '__main__' from 'C:\\Users\\PRIANANDA AZHAR\\AppData\\Local\\Programs\\Python\\Python310\\Scripts\\flask.exe\\__main__.py'>
+2023-05-04 18:23:52,916 - MindSpaze - ERROR - Exception on /predict [POST]
+Traceback (most recent call last):
+  File "C:\Users\PRIANANDA AZHAR\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\PRIANANDA AZHAR\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\PRIANANDA AZHAR\AppData\Local\Programs\Python\Python310\lib\site-packages\flask_restful\__init__.py", line 271, in error_router
+    return original_handler(e)
+  File "C:\Users\PRIANANDA AZHAR\AppData\Local\Programs\Python\Python310\lib\site-packages\flask_restful\__init__.py", line 271, in error_router
+    return original_handler(e)
+  File "C:\Users\PRIANANDA AZHAR\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\PRIANANDA AZHAR\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "C:\Users\PRIANANDA AZHAR\AppData\Local\Programs\Python\Python310\lib\site-packages\flask_restful\__init__.py", line 467, in wrapper
+    resp = resource(*args, **kwargs)
+  File "C:\Users\PRIANANDA AZHAR\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\views.py", line 109, in view
+    return current_app.ensure_sync(self.dispatch_request)(**kwargs)
+  File "C:\Users\PRIANANDA AZHAR\AppData\Local\Programs\Python\Python310\lib\site-packages\flask_restful\__init__.py", line 582, in dispatch_request
+    resp = meth(*args, **kwargs)
+  File "C:\Users\PRIANANDA AZHAR\Downloads\FLASK-serverEnv\mindspaze_api\resources\prediction.py", line 18, in post
+    model = pickle.load(model_file)
+AttributeError: Can't get attribute 'process_text' on <module '__main__' from 'C:\\Users\\PRIANANDA AZHAR\\AppData\\Local\\Programs\\Python\\Python310\\Scripts\\flask.exe\\__main__.py'>
+2023-05-04 18:27:47,856 - MindSpaze - ERROR - Exception on /predict [POST]
+Traceback (most recent call last):
+  File "C:\Users\PRIANANDA AZHAR\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\PRIANANDA AZHAR\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\PRIANANDA AZHAR\AppData\Local\Programs\Python\Python310\lib\site-packages\flask_restful\__init__.py", line 271, in error_router
+    return original_handler(e)
+  File "C:\Users\PRIANANDA AZHAR\AppData\Local\Programs\Python\Python310\lib\site-packages\flask_restful\__init__.py", line 271, in error_router
+    return original_handler(e)
+  File "C:\Users\PRIANANDA AZHAR\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\PRIANANDA AZHAR\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "C:\Users\PRIANANDA AZHAR\AppData\Local\Programs\Python\Python310\lib\site-packages\flask_restful\__init__.py", line 467, in wrapper
+    resp = resource(*args, **kwargs)
+  File "C:\Users\PRIANANDA AZHAR\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\views.py", line 109, in view
+    return current_app.ensure_sync(self.dispatch_request)(**kwargs)
+  File "C:\Users\PRIANANDA AZHAR\AppData\Local\Programs\Python\Python310\lib\site-packages\flask_restful\__init__.py", line 582, in dispatch_request
+    resp = meth(*args, **kwargs)
+  File "C:\Users\PRIANANDA AZHAR\Downloads\FLASK-serverEnv\mindspaze_api\resources\prediction.py", line 26, in post
+    content = f.read()
+AttributeError: 'str' object has no attribute 'read'

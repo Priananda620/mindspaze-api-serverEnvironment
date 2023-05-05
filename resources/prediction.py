@@ -14,17 +14,23 @@ class PredictionResource(Resource):
         }
 
         model_name = os.getcwd()+"\\machine_learning\\models\\svm_countVec_model.sav"
-        model_file = open(model_name, "rb")
-        model = pickle.load(model_file)
+        # model_file = open(model_name, "rb")
+        # model = pickle.load(model_file)
 
-        article_text = response.get("data").get("comment")
-        article_predict_loaded_model = model.predict([article_text])
 
-        # article_predict_loaded_model=True
+        # article_text = response.get("data").get("comment")
+        # article_predict_loaded_model = model.predict([article_text])
+
+
+        f = open(os.getcwd()+"\\machine_learning\\models\\aaa.txt", 'r')
+        content = f.read()
+
+        article_predict_loaded_model=True
 
         data = {
-            "is_hoax": bool(article_predict_loaded_model[0]),
-            "curr_dir": model_name
+            "is_hoax": bool(article_predict_loaded_model),
+            "curr_dir": model_name,
+            "text": content
         }
 
         return data, 200
