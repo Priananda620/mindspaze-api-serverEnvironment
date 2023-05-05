@@ -18,8 +18,8 @@ from logging import getLogger
 from flask_apscheduler import APScheduler
 from flask_sqlalchemy import SQLAlchemy
 
-from mysite.blueprints import mindspaze_bp
-from mysite.blueprints.prediction import prediction_blueprint
+from mindspaze_api.blueprints import mindspaze_bp
+from mindspaze_api.blueprints.prediction import prediction_blueprint
 from config import Config
 
 app_logger = getLogger('app')

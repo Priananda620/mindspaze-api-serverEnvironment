@@ -1,3 +1,3 @@
-import create_app
+import flask_app
 
-app = create_app.create_appp()
+app = flask_app.app
