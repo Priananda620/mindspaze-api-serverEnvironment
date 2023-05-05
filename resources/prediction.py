@@ -13,7 +13,7 @@ class PredictionResource(Resource):
             }
         }
 
-        model_name = os.getcwd()+"\\machine_learning\\models\\svm_countVec_model.sav"
+        model_name = os.getcwd()+"/machine_learning/models/svm_countVec_model.sav"
         # model_file = open(model_name, "rb")
         # model = pickle.load(model_file)
 
@@ -22,7 +22,7 @@ class PredictionResource(Resource):
         # article_predict_loaded_model = model.predict([article_text])
 
 
-        f = open(os.getcwd()+"\\machine_learning\\models\\aaa.txt", 'r')
+        f = open(os.getcwd()+"/machine_learning/model/aaa.txt", 'r')
         content = f.read()
 
         article_predict_loaded_model=True

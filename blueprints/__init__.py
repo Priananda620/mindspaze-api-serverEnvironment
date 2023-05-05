@@ -8,4 +8,4 @@ mindspaze_bp = Blueprint("mindspaze_bp", __name__, url_prefix="/mindspaze_api")
 mindspaze_api = Api(mindspaze_bp)
 
 mindspaze_api.add_resource(Banana, "/banana")
-# mindspaze_api.add_resource(PredictionResource, "/predict")
+mindspaze_api.add_resource(PredictionResource, "/predict")
